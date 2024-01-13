@@ -1,0 +1,47 @@
+
+.container{
+ width: 100%;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ font-family: 'Varela Round', sans-serif; 
+
+ /* background-color: rgb(108, 108, 241); */
+
+}
+.inside{
+    width:35%;
+    height: 20%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 16, 209);
+    gap: 30px;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif; 
+
+    
+}
+#b-date{
+    width: 55%;
+    padding: 11px 25px 11px 25px;
+    /* margin: 0; */
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+#calculate{
+    border: none;
+    border-radius: 10px;
+    padding: 8px 25px 8px 25px;
+    color: white;
+    background-color: rgb(8, 8, 54);
+}
+.show_years{
+    /* width: 50%; */
+    gap: 80px;
+
+}
